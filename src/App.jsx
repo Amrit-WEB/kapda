@@ -1,5 +1,7 @@
+import Category from "./components/Category";
+
 function App() {
-  return <div className="bg-red-100">hi, vite</div>;
+  return <Category />;
 }
 
 export default App;
