@@ -1,4 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
+import { FaShoppingCart } from "react-icons/fa";
 
 function Navigation() {
   return (
@@ -13,7 +14,9 @@ function Navigation() {
           <Link to="/shop">Shop</Link>
           <Link to="/contact">Contact</Link>
         </div>
-        <div className="font-semibold text-xl">🛒 Cart 0</div>
+        <div className="font-semibold text-xl flex items-center gap-2 text-pink-600">
+          <FaShoppingCart /> Cart 0
+        </div>
       </nav>
       <Outlet />
     </>
