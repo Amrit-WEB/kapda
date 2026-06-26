@@ -9,12 +9,33 @@ function Navigation() {
           <img className="h-15" src="/logo.png" alt="Kapda logo" />
           <p className="text-pink-600 font-semibold tracking-wider">KAPDA</p>
         </div>
-        <div className="flex text-pink-600 gap-4 text-xl">
-          <Link to="/">Home</Link>
-          <Link to="/shop">Shop</Link>
-          <Link to="/contact">Contact</Link>
+        <div className="flex text-pink-600 gap-4 text-xl items-center ">
+          <Link
+            to="/"
+            className="hover:underline hover:text-pink-700 cursor-pointer"
+          >
+            Home
+          </Link>
+          <Link
+            to="/shop"
+            className="hover:underline hover:text-pink-700 cursor-pointer"
+          >
+            Shop
+          </Link>
+          <Link
+            to="/contact"
+            className="hover:underline hover:text-pink-700 cursor-pointer"
+          >
+            Contact
+          </Link>
+          <Link
+            to="/signup"
+            className="hover:underline hover:text-pink-700 cursor-pointer"
+          >
+            Account
+          </Link>
         </div>
-        <div className="font-semibold text-xl flex items-center gap-2 text-pink-600">
+        <div className="font-semibold flex items-center gap-2 bg-pink-500 rounded text-white px-3 py-1 hover:bg-pink-600">
           <FaShoppingCart /> Cart 0
         </div>
       </nav>
