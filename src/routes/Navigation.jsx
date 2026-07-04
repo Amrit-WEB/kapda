@@ -29,7 +29,7 @@ function Navigation() {
             Contact
           </Link>
           <Link
-            to="/signup"
+            to="/auth"
             className="hover:underline hover:text-pink-700 cursor-pointer"
           >
             Account
