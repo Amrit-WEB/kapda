@@ -1,16 +1,67 @@
-# React + Vite
+# Kapda 👕
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kapda is a modern and scalable e-commerce platform built to provide a seamless online shopping experience. The project is currently in its early development phase and will be expanded with industry-standard features as development progresses.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js
+- Vite
+- Firebase
+- React Router
+- Tailwind CSS
+- JavaScript (ES6+)
 
-## React Compiler
+## 📌 Planned Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User Authentication
+- Product Catalog
+- Category & Search
+- Shopping Cart
+- Wishlist
+- Product Details
+- Checkout Flow
+- Order Management
+- User Profile
+- Admin Dashboard
+- Responsive Design
+- Secure Firebase Integration
 
-## Expanding the ESLint configuration
+## 📂 Project Status
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚧 **This project is currently under active development.**
+
+New features, improvements, and bug fixes are being added regularly.
+
+## 🛠️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Amrit-WEB/kapda.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd kapda
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🤝 Contributing
+
+Contributions, suggestions, and feedback are welcome. Feel free to open an issue or submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
