@@ -4,7 +4,7 @@ import { FaShoppingCart } from "react-icons/fa";
 function Navigation() {
   return (
     <>
-      <nav className="flex justify-between items-center py-2 px-6 bg-orange-100">
+      <nav className="flex justify-between items-center py-2 px-6 bg-linear-to-r from-orange-100 via-pink-200 to-orange-100">
         <div className="flex flex-col items-center">
           <img className="h-15" src="/logo.png" alt="Kapda logo" />
           <p className="text-pink-600 font-semibold tracking-wider">KAPDA</p>
